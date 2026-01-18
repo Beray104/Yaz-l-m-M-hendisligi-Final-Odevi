@@ -1,1 +1,1 @@
-# Yaz-l-m-M-hendisligi-Final-Odevi
+# Yazılım Mühendisligi Final-Odevi
