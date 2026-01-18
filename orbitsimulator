@@ -1,0 +1,51 @@
+import java.util.Scanner;
+
+public class OrbitSimulator {
+
+    static final double G = 6.67e-11;
+
+    static class Planet {
+        String name;
+        double mass;
+        double distanceToSun;
+
+        Planet(String name, double mass, double distanceToSun) {
+            this.name = name;
+            this.mass = mass;
+            this.distanceToSun = distanceToSun;
+        }
+
+        double calculateOrbitSpeed(double sunMass) {
+            return Math.sqrt(G * sunMass / distanceToSun);
+        }
+
+        double calculateOrbitPeriod(double sunMass) {
+            double speed = calculateOrbitSpeed(sunMass);
+            return (2 * Math.PI * distanceToSun) / speed;
+        }
+    }
+
+    public static void main(String[] args) {
+
+        Scanner scanner = new Scanner(System.in);
+        double sunMass = 1.989e30;
+
+        System.out.print("Gezegen adini giriniz: ");
+        String name = scanner.nextLine();
+
+        System.out.print("Gezegen kutlesini giriniz (kg): ");
+        double mass = scanner.nextDouble();
+
+        System.out.print("Gezegenin Gunes'e uzakligini giriniz (metre): ");
+        double distance = scanner.nextDouble();
+
+        Planet planet = new Planet(name, mass, distance);
+
+        System.out.println("\n--- YORUNGE BILGILERI ---");
+        System.out.println("Gezegen: " + planet.name);
+        System.out.println("Yorunge hizi (m/s): " + planet.calculateOrbitSpeed(sunMass));
+        System.out.println("Yorunge periyodu (saniye): " + planet.calculateOrbitPeriod(sunMass));
+
+        scanner.close();
+    }
+}
