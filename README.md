@@ -1,9 +1,6 @@
-YAZILIM MÜHENDİSLİĞİ FİNAL ÖDEVİ
-BERAY AKAR
-250541019
 
 
 
-Bu projeyi yapma amacım, yazılım mühendisliği eğitimimde öğrendiğim Java programlama temellerini bilimsel bir problem üzerinde uygulamaktır. Aynı zamanda matematik, fizik ve algoritma bilgisinin yazılım geliştirme sürecinde nasıl birlikte kullanıldığını göstermeyi hedefledim.
-Bu projeyi, Bilimsel Yazılım Geliştirme (Scientific Computing) alanını daha iyi tanımak ve bu alandaki temel hesaplama mantığını öğrenmek amacıyla geliştirdim. Projede, astronomi alanında sıkça karşılaşılan gezegen yörünge hesaplamalarını basit ve anlaşılır bir şekilde Java programlama dili kullanarak simüle etmeyi hedefledim.
-Uygulama, kullanıcıdan alınan gezegen bilgilerine göre gezegenin Güneş etrafındaki yörünge hızını ve bir turu tamamlama süresi olan yörünge periyodunu hesaplamaktadır. Bu sayede bilimsel yazılımlarda kullanılan matematiksel ve fiziksel hesaplama yaklaşımını küçük ölçekli bir örnek üzerinden göstermeyi amaçladım.
+
+
+ Bu projeyi, yazılım mühendisliği eğitimimde öğrendiğim Java programlama temellerini bilimsel bir problem üzerinde uygulamak amacıyla geliştirdim. Matematik, fizik ve algoritma bilgisini yazılım geliştirme sürecinde birlikte kullanmayı ve Bilimsel Yazılım Geliştirme alanını daha iyi tanımayı hedefledim. Projede, astronomide kullanılan gezegen yörünge hesaplamalarını Java ile basit bir şekilde simüle ederek, kullanıcıdan alınan verilere göre gezegenin yörünge hızı ve yörünge periyodunu hesapladım.
